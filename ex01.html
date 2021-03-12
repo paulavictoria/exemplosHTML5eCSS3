@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formatações</title>
+</head>
+<body>
+    <style>
+        h1{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:orangered;
+        }
+        h2{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color:peru;
+        }
+        p {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        h3{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte e Pré-formatado</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript. </p> <!--code deixa as letras em sua certa formatação, igualizando todas elas e deixando parecer realmente um código.-->
+    <pre>
+        <code> <!--shift+tab traz tudo para o lado.-->
+num = int(input('Digite um número'))
+if num % 2 == 0;
+    print(f'0 número {num} é PAR')
+else:
+    print(f'o número {num} é ÍMPAR')
+print('Fim do programa')
+        </code>
+    </pre> <!--pre ele reorganiza a formatação do código da sua devida maneira-->
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q></p> <!--q significa citação, então utilizando e ele abrirá um par de aspas na citação selecionada.-->
+    <h2>Citações completas</h2>
+    <p><strong>Segundo Joaquim B. de Souza</strong>, no seu livro HTML para Iniciantes:</p>
+    <blockquote cite="https://books.google.com.br/books?id=IuVxDwAAQBAJ&pg=PA14&dq=html&hl=pt-PT&sa=X&ved=2ahUKEwjf39fxqfLuAhWjHLkGHY8jAIcQ6AEwAXoECAkQAg#v=onepage&q=html&f=false"> <!--o cite serve para que a parte interna do seu site mostre de onde vem a citação, mas ela não aparece como link ou documento na sua página web-->
+        Antes de tudo, porém, salve o arquivo iniciando.html para atualizar as informações clicando no menu Arquivo e em Salvar Bloco de Notas. Agora você já pode visualizar a sua página em um navegador web.
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou amando.</p> <!--abbr mostra o significado da abreviação quando se passa o mouse em cima.-->
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML e CSS.</bdo></p>
+</body>
+</html>
